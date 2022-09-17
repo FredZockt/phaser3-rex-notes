@@ -197,7 +197,7 @@ declare class UIPlugins extends Phaser.Plugins.ScenePlugin {
 
     readonly maker: MakerClass;
 
-    yaml: yaml;
+    yaml: typeof yaml;
 }
 
 

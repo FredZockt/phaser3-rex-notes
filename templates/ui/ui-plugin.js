@@ -152,7 +152,7 @@ var methods = {
     modalClose: ModalClose,
     requestDrag: RequestDrag,
 
-    yaml: yaml,
+    yaml: typeof yaml,
 }
 
 Object.assign(
