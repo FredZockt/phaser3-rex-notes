@@ -23,7 +23,7 @@ declare class Chart extends Canvas {
 
     getChartDataset(
         datasetIndex: Chart.IndexType
-    ): { [index: Chart.IndexType]: number };
+    ): { [index in Chart.IndexType]: number };
 
     getChartData(
         datasetIndex: Chart.IndexType,
